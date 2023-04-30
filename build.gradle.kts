@@ -18,6 +18,4 @@ allprojects {
     }
 }
 
-fun RepositoryHandler.jitpack() {
-    maven { url = project.uri("https://jitpack.io") }
-}
+fun RepositoryHandler.jitpack() = maven { url = project.uri("https://jitpack.io") }
